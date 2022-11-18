@@ -37,6 +37,14 @@
             <version>2.0.2.Final</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>javax.enterprise</groupId>
+            <artifactId>cdi-api</artifactId>
+            <scope>provided</scope>
+            <version>2.0.0.SP1-redhat-00001</version>
+        </dependency>
+
     </dependencies>
     <build>
         <finalName>${project.artifactId}</finalName>

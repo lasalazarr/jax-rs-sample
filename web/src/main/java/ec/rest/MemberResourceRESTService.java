@@ -17,6 +17,8 @@
 package ec.rest;
 
 import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+import javax.enterprise.context.RequestScoped;
 
 /**
  * JAX-RS Example
